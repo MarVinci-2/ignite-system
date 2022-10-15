@@ -5,41 +5,38 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      xs:14,
-      sm:16,
-      md:18,
-      lg:20,
-      xl:24,
-      '2xl':32,
+      xs: 14,
+      sm: 16,
+      md: 18,
+      lg: 20,
+      xl: 24,
+      '2xl': 32,
     },
 
-    colors:{
-        transparent: 'transparent',
+    colors: {
+      transparent: 'transparent',
 
-        black: '#000',
-        white: '#FFFF',
+      black: '#000',
+      white: '#FFF',
 
-        gray: {
-          900: '#121214',
-          800: '#202024',
-          400: '#7c7c8a',
-          200: '#c4c4cc',
-          100: '#e1e1e6',
-        },
-      
-        cyan: {
-          500: '#81d8f7',
-          300: '#9BE1FB'
-
-        },
+      gray: {
+        900: '#121214',
+        800: '#202024',
+        400: '#7c7c8a',
+        200: '#c4c4cc',
+        100: '#e1e1e6',
       },
+
+      cyan: {
+        500: '#81d8f7',
+        300: '#9BE1FB'
+      },
+    },
     extend: {
-      fontFamily:{
+      fontFamily: {
         sans: 'Inter, sans-serif'
       },
     },
   },
   plugins: [],
 }
-
-

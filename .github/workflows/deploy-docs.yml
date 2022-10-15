@@ -3,7 +3,7 @@ name : Deploy Storybook
 on: 
   push: 
     branches: 
-      -ig
+      -'ig/main'
 
 jobs: 
   build-and-deply:  
